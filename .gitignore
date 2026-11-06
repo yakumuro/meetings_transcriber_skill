@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+config.json
+recordings/*
+!recordings/.gitkeep
+outputs/*
+!outputs/.gitkeep
+!outputs/REGISTRY.md
+models/*
+!models/.gitkeep
+runtime/
+logs/*
+!logs/.gitkeep
+state/
+*.part

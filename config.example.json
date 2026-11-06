@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "engine": {
+    "name": "whisper.cpp",
+    "version": "v1.9.5",
+    "release": "b5454",
+    "backend": "auto",
+    "binary": "runtime/whisper-cli"
+  },
+  "model": {
+    "name": "large-v3-turbo",
+    "path": "models/ggml-large-v3-turbo.bin"
+  },
+  "artifacts": {
+    "transcript": true,
+    "summary": true,
+    "email": false
+  },
+  "transcription": {
+    "language": "auto",
+    "summary_language": "ru",
+    "threads": 8,
+    "beam_size": 5,
+    "vad": true,
+    "vad_model": "models/ggml-silero-v6.2.0.bin",
+    "initial_prompt": ""
+  },
+  "paths": {
+    "recordings": "recordings",
+    "outputs": "outputs",
+    "logs": "logs"
+  }
+}
